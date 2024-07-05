@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+/*CAbeçalho*/
+
+    #header {
+
+        background-color: #303030;
+        width: 1349px;
+        height: 475px; 
+    }
+
+        #header h1{
+
+            color: #FFFFFF;
+            padding-top: 206px;
+            margin-left: 62px;
+            font-weight: 600;
+            font-size: 60px;
+            line-height: 72px;
+            letter-spacing: -2.5%;
+}
+
+                #header p {
+
+                    margin-top: 28px; 
+                    margin-left: 62px;
+                    color: #FFFFFF;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 28px;
+                    
+
+}
+
+/*Quadro Informativo*/
+
+#numbers{
+background-color:#F9F9F9;
+padding-top: 80px;
+width: 1349px;
+height: 150px;
+display: grid;
+grid-auto-flow: column;
+columns: auto;
+
+
+}
+
+        #numbers h3{
+            
+           padding-left: 95px;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 28px;
+
+}
+
+                   #numbers span {
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    
+
+}
+
+
+#mural{
+    background-color: #FFFFFF;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-left: 77px;
+    align-items: center;
+    
+
+}
+
+        #mural h3{ 
+
+            
+            font-size: 33px;
+            font-weight: 500;
+            line-height: 20px;
+            text-align: left;
+
+        }
+
+                    #mural span{
+                        
+                        font-size: 20px;
+                        font-weight: 300;
+                        line-height: 30px;
+                        text-align: left;
+
+                    }
+
+                    img{
+
+                        width: 510px;
+                        height: 605px;
+                        top: 781px;
+                        left: 876px;
+                        gap: 0px;
+                        border-radius: 30px 0px 0px 0px;
+                        opacity: 0px;
+
+                    }
+
+            /*Formulário*/
+
+            #form{
+
+                background-color: #303030;
+                width: 1349px;
+                height: 690px;
+               
+            }
+
+                        #form h4{
+
+                            padding-top: 90px;
+                            font-size: 32px;
+                            font-weight: 700;
+                            line-height: 48px;
+                            text-align: center;
+                            color: #FFFFFF
+
+            }
+
+                            input{
+                                background-color: #FFFFFF;
+                                margin-top:70px;
+                                width: 508px;
+                                height: 72px;
+                                border-radius: 10px;
+                                font-family: 'Raleway';
+                                margin-left: 415px;
+                                padding-left: 20px;                           
+                                font-size: 24px;
+                                font-weight: 700;
+                                line-height: 30px;                              
+
+            }
+                                  button{
+                                    background-color: #C07212;
+                                    width: 286px;
+                                    height: 74px;
+                                    border-radius: 10px;
+                                    margin-left: 535px;
+                                    margin-top: 80px;
+                                    font-family: 'Raleway';
+                                    font-size: 30px;
+                                    font-weight: 700;
+                                    line-height: 30px;
+                                    text-align: center;
+                                    color: #FFFFFF;
+                                    
+
+                                  }
+
+                                         button:hover{
+                                            cursor: pointer;
+                                            box-shadow: 50;
+                                            transform:TranslateY(-10px)
+                                  }
+
+                                    
+
+
+
